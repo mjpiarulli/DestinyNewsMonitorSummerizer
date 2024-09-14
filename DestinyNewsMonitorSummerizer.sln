@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinyNewsMonitorSummerizer", "DestinyNewsMonitorSummerizer\DestinyNewsMonitorSummerizer.csproj", "{1F31EA6A-CF22-4A4E-8D57-816DE96C60C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinyNews.Common", "DestinyNews.Common\DestinyNews.Common.csproj", "{507F8185-6CB8-4168-8EA1-1507FC679F69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinyNews.Data", "DestinyNews.Data\DestinyNews.Data.csproj", "{370A620C-2DCE-4A8B-855B-77182FF8E2E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Common", "1 Common", "{C11FC5DF-733F-4099-9F17-B62647284AFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Data", "2 Data", "{9AF876CC-E95D-44B7-8144-355B13A6F42F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Application", "4 Application", "{87080DC0-3763-4135-B2B8-A41857DA6BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{B1FF0C48-0C43-49D8-B59E-0B327A9A2E18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F31EA6A-CF22-4A4E-8D57-816DE96C60C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F31EA6A-CF22-4A4E-8D57-816DE96C60C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F31EA6A-CF22-4A4E-8D57-816DE96C60C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F31EA6A-CF22-4A4E-8D57-816DE96C60C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{507F8185-6CB8-4168-8EA1-1507FC679F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507F8185-6CB8-4168-8EA1-1507FC679F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507F8185-6CB8-4168-8EA1-1507FC679F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507F8185-6CB8-4168-8EA1-1507FC679F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370A620C-2DCE-4A8B-855B-77182FF8E2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370A620C-2DCE-4A8B-855B-77182FF8E2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370A620C-2DCE-4A8B-855B-77182FF8E2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370A620C-2DCE-4A8B-855B-77182FF8E2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FF0C48-0C43-49D8-B59E-0B327A9A2E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FF0C48-0C43-49D8-B59E-0B327A9A2E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FF0C48-0C43-49D8-B59E-0B327A9A2E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FF0C48-0C43-49D8-B59E-0B327A9A2E18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F31EA6A-CF22-4A4E-8D57-816DE96C60C7} = {87080DC0-3763-4135-B2B8-A41857DA6BE5}
+		{507F8185-6CB8-4168-8EA1-1507FC679F69} = {C11FC5DF-733F-4099-9F17-B62647284AFA}
+		{370A620C-2DCE-4A8B-855B-77182FF8E2E9} = {9AF876CC-E95D-44B7-8144-355B13A6F42F}
+		{B1FF0C48-0C43-49D8-B59E-0B327A9A2E18} = {9AF876CC-E95D-44B7-8144-355B13A6F42F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {125556E3-F69B-4105-9A38-A491FE3378E4}
+	EndGlobalSection
+EndGlobal
